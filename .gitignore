@@ -13,3 +13,16 @@ cfg/
 .vscode
 **/MapFXDrawer/*.png
 test_merge.txt
+config/motd.txt
+config/mentors.txt
+config/maps.txt
+config/jobs.txt
+config/guard_blacklist.txt
+config/game_options.txt
+config/donators.txt
+config/dbconfig.txt
+config/config.txt
+config/announcer/serverlist.txt
+config/announcer/ban.txt
+config/admins.txt
+config/admin_ranks.txt
