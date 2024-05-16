@@ -210,7 +210,7 @@ var/global/list/preferences_datums = list()
 	dat += "<style>body{background-image:url('dossier_empty.png');background-color: #F5ECDD;background-repeat:no-repeat;background-position:center top;background-attachment: fixed;}</style>"
 	dat += "<style>.main_menu{margin-left:150px;margin-top:135px;}</style>"
 
-	if(path)
+	if(1) //debug: if(path)
 		dat += "<div class='main_menu'>"
 		dat += "Slot: <b>[real_name]</b> - "
 		dat += "[menu_type=="load_slot"?"<b>Load slot</b>":"<a href=\"byond://?src=\ref[user];preference=load_slot\">Load slot</a>"] - "
@@ -226,9 +226,9 @@ var/global/list/preferences_datums = list()
 		dat += "[menu_type=="custom_keybindings"?"<b>Custom Keybindings</b>":"<a href=\"byond://?src=\ref[user];preference=custom_keybindings\">Custom Keybindings</a>"]"
 		dat += "<br><a href='?src=\ref[user];preference=close\'><b><font color='#FF4444'>Close</font></b></a>"
 		dat += "</div>"
-	else
-		dat += "Please create an account to save your preferences."
-
+	//else
+	//	dat += "Please create an account to save your preferences."
+	//
 	dat += "</center><hr width='535'>"
 	switch(menu_type)
 		if("general")
